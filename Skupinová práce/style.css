@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.vedlesebe {
+    display: flex;
+    gap: 4px;
+}
+
+.podsebou {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.max {
+    flex-grow: 1;
+}
+
+.min {
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.seda{
+    background-color: #B1B2B5;
+}
