@@ -2,4 +2,4 @@
 Tomáš Komárek-Vedoucí,
 Mates Nosál-Designer,
 Vít Kupec-Vývojář,
-Dan Makovský-Copywriter
+Dan Makovský-Copywriter.
