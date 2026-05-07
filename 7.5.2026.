@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoopShift</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body class="podsebou">
+    <div class="HERO">
+        <div class="nazev">LoopShift</div>
+       <div class="bloknazev2">
+         <div class="nazev2">Náš tým</div>
+        <div class="nazev2">Info o hře</div>
+       </div> 
+
+    </div>
+    <div class="mezeranaobrazek">
+        <div class="rychlovka">
+            <H1>LoopShift</H1>
+            <p>Skoč, běž a překonej každou propast v plošinovce.</p>
+        </div>
+    </div>
+    
+    </div>
+
+    </div>
+    <div class="kontakt">
+        <div class="nazev">Tým projektu:</div>
+        <div class="kontaktblok">
+            <p>nosalm@spskladno.cz</p>
+            <p>kupecv@spskladno.cz</p>
+        </div>
+        <div class="kontaktblok">
+            <p>komarekt@spskladno.cz</p>
+            <p>makovskyd@spskladno.cz</p>
+        </div>
+    </div>
+</body>
+</html>
+
+CSS:
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 5px;
+}
+
+p {
+    margin-top: 5px
+}
+
+.HERO {
+    background-color: #2C3E63;
+    border: 3px solid #1B2640;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.bloknazev2 {
+    align-items: right;
+    
+
+
+}
+
+.nazev {
+    color: #f5f5f5;
+    margin: 10px; 
+    margin-left: 20px; 
+    text-shadow: 0px 2px 2px black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.nazev2 {
+    color: #f5f5f5;
+    margin: 10px; 
+    margin-left: 20px; 
+    text-shadow: 0px 2px 2px black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+    
+}
+
+.mezeranaobrazek {
+    background-color: whitesmoke;
+    display: flex;
+    min-height: 700px;
+}
+
+.rychlovka {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+    min-width: 550px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.rychlovka h1 {
+    font-size: xx-large;
+}
+
+
+
+
+.novinky h1 {
+    text-align: center;
+}
+
+.kontakt {
+    display: flex;
+    min-height: 100px;
+    background-color: #1B2640;
+    border: 3px solid #334164;
+}
+
+.kontaktblok {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: large;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+
